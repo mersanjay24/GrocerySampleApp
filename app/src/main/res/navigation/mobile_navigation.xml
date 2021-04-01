@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.vinshopifytest.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_request"
+        android:name="com.vinshopifytest.ui.comingsoon.ComingSoonFragment"
+        tools:layout="@layout/fragment_coming_soon" />
+
+    <fragment
+        android:id="@+id/navigation_bag"
+        android:name="com.vinshopifytest.ui.comingsoon.ComingSoonFragment"
+        tools:layout="@layout/fragment_coming_soon" />
+    <fragment
+        android:id="@+id/navigation_browse"
+        android:name="com.vinshopifytest.ui.comingsoon.ComingSoonFragment"
+        tools:layout="@layout/fragment_coming_soon" />
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.vinshopifytest.ui.comingsoon.ComingSoonFragment"
+        tools:layout="@layout/fragment_coming_soon" />
+</navigation>

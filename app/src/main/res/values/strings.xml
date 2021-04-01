@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vinshopify Test</string>
+    <string name="title_home">Home</string>
+    <string name="request">Request</string>
+    <string name="bag">Bag</string>
+    <string name="browse">Browse</string>
+    <string name="more">More</string>
+</resources>
